@@ -27,13 +27,54 @@
 		<div class="company-card">
 			<div class="center-align">
 				<img src="..//images/asu_icon.png" alt="Avatar" class="company-card-title"><br/>
-				<span style="margin:2px;">Arizona State University - MS In Software Engineering (GPA - 3.83, August 2019- May 2021)</span>
+				<span style="margin:2px;">MS In Software Engineering (GPA - 4/4, August 2019- May 2021)</span>
 			</div>
 			<div class="hr-red"></div>
 			<div class="project-card">
-				<div class="fl project-img-icon-box" style="background-color:#166685 !important;"><img src="..//images/asu_se_icon.png" class="project-img-icon"/></div>
-				<div class="project-text"><h3 class="color-blue">Software Engineering</h3>
-
+				<!-- <div class="fl project-img-icon-box" style="background-color:#166685 !important;"><img src="..//images/asu_se_icon.png" class="project-img-icon"/></div> -->
+				<div class="fl project-img-icon-box" style="background-color:#166685 !important;"><img src="..//images/chatbot.png" class="project-img-icon"/></div>
+				<div class="project-text"><h3 class="color-blue">Cognitive Information Processing Systems Lab – Research Assistant:</h3> </div>
+				
+				<div class="project-text sub-project-text"><h4 class="color-blue">Bots Propaganda Detection - Data extraction, linking and pattern discovery</h4>
+					<ul>
+						<li>Scrapped bot suspected twitter data. Performed text cleaning, classification and clustering of tweet by topics.</li>
+						<li>Generated reports using d3.js and Node.js.</li>
+						<li>Implemented Density Based clustering (DBSCAN) and minhash algorithms to cluster tweets for topic detection.</li>
+						<li>Wrote a tool using Coornet to detect and report coordinated link sharing done by suspected bots in Facebook.</li>
+					</ul>
+				</div>
+				
+				<div class="project-text sub-project-text"><h4 class="color-blue">Large Scale Twitter data management</h4>
+					<ul>
+						<li>Implemented data sharding to store over 1 billion tweets on PostgreSQL and an interface to read and write data.</li>
+						<li>Improved the time to fetch a week’s worth of twitter data from 120 seconds to 10 seconds.</li>
+						<li>Developed a datastructure using priority queue and map to store highly active tweets and wrote APIs to expose this data.</li>
+					</ul>
+				</div>
+				<div class="fl project-img-icon-box" style="background-color: None !important;"><img src="..//images/word_cloud.png" class="project-img-icon"/></div>
+				
+				<div class="project-text"><h3 class="color-blue">Projects:</h3></div>
+				<div class="project-text sub-project-text"><h4 class="color-blue">Job Application Tracker</h4>
+					<ul>
+						<li>Developed a web app with Kanban boards to keep track of my job applications as an alternative to paid applications.</li>
+						<li>Implemented Job description-based keywords suggestion for resume.</li>
+					</ul>
+				</div>
+				<div class="project-text sub-project-text"><h4 class="color-blue">Sunhacks Hackathon, SimplyQ - Winner of Best IoT hack</h4>
+					<ul>
+						<li>Built a notification based virtual queue system where users within the range of a beacon device can reserve a virtual spot</li>
+					</ul>
+				</div>
+				<div class="fl project-img-icon-box" style="background-color: None !important;"><img src="..//images/trace.png" class="project-img-icon"/></div>
+				<div class="project-text sub-project-text"><h4 class="color-blue">Designed a new Imperative programming language “Trace” and its Interpreter</h4>
+					<ul>
+						<li>Developed an Interpreter for trace, to support primitive data types and their operations and control statements.</li>
+					</ul>
+				</div>
+				<div class="project-text sub-project-text"><h4 class="color-blue">Semantic Analysis on Location-based social networking data</h4>
+					<ul>
+						<li>Built an ontology to structure scrapped social media data and a system to profile users based on their sports interest.</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -41,44 +82,43 @@
 		<div class="company-card">
 			<div class="center-align">
 				<img src="..//images/zoho_icon.png" alt="Avatar" class="company-card-title"><br/>
-				<span style="margin:2px;">Zoho - Full stack Engineer (June 2017- June 2019)</span></div>
+				<span style="margin:2px;">Full stack Engineer (June 2017- June 2019)</span></div>
 			<div class="hr-red"></div>
 			<div class="project-card">
 				<div class="fl project-img-icon-box"><img src="..//images/dbs_icon.png" class="project-img-icon"/></div>
-				<div class="project-text"><h3 class="color-blue">DBS - Zoho's Distributed Build Server [A gRPC based client/server application with multi-master replication]</h3>
+				<div class="project-text"><h3 class="color-blue">Distributed file server [Lead Developer]</h3>
 					<ul>
 						<li>Designed, Developed and built a distributed file system in Java to store and transfer large files in parallel and efficiently to its respective servers across data centers.</li>
-						<li>The new file server tool overcame the bottleneck caused by the legacy master/slave architecture file server which used rsync and scp in Linux based servers to copy files.</li>
+						<li>Enabled file chunk size and parallel transfers to be configured automatically in runtime for maximum transfer speed.</li>
+						<li>Achieved multi master replication for fault tolerance and flexible server provisioning for vertical scalability.</li>
 					</ul>
 				</div>
 			</div>
 			<div class="project-card">
 				<div class="fl project-img-icon-box" style="background-color:#0d86da !important;"><img src="..//images/zcp_icon.jpg" class="project-img-icon"/></div>
-				<div class="project-text"><h3 class="color-blue">Zoho Cloud Platform [Web tier (L3-L7 load balancing using Nginx), App tier(Continuous delivery and deployment, Configuration externalization), Data tier, Inventory Management, DNS Management, Datacenter Management]</h3>
+				<div class="project-text"><h3 class="color-blue">Zoho Cloud Platform - Cloud Infrastructure Management</h3>
 					<ul>
-						<li>Design and implemented a API for adding/updating SPF and DMARC records in respective zone files in internal and external DNS servers. This automation resulted in a ~3000% improvement in time efficiency.</li>
-						<li>Worked with team on implementing configuration externalization, which greatly reduced the manual work required during app deployment.</li>
-						<li>Improved the efficiency of data replication schedulers by 2.5 times by analyzing Java’s GC and thread dumps.</li>
-						<li>User management – Developed a user-friendly process for users to self-assign complex roles and privileges.</li>
-						<li>App tier – Debugged bugs caused while deploying an application using out Data center management tool.</li>
+						<li>Wrote RESTful APIs for adding/updating SPF and DMARC records on internal and external DNS servers, thereby automating the management of these DNS records.</li>
+						<li>Improved the performance of data replication by reducing memory usage and Garbage Collector processing time, by 5%.</li>
+						<li>Developed workflows in Load balancing, Continuous Deployment, DNS Management and User Management.</li>
 					</ul>
 				</div>
 			</div>
 			<div class="project-card">
 				<div class="fl project-img-icon-box"><img src="..//images/mq_icon.png" class="project-img-icon"/></div>
-				<div class="project-text"><h3 class="color-blue">MQueue – Zoho's Message queuing application, a wrapper over Apache Kafka</h3>
+				<div class="project-text"><h3 class="color-blue">MQueue – Apache Kafka as a microservice for Internal Teams</h3>
 					<ul>
-						<li>Implemented Kafka servers’ monitoring and healing by analyzing its internal metrics, exposed via JMX which reduced error detection time by ~3500%.</li>
-						<li>Contributed to the design, testing, development and deployment of Kafka cluster mirroring across data centers with near-zero downtime using mirroring clusters.</li>
+						<li>Implemented Kafka/Zookeeper servers’ monitoring by analyzing its internal metrics, exposed via JMX.</li>
+						<li>Developed Kafka/Zookeeper self-healing which reduced server downtime by ~3000%.</li>
 					</ul>
 				</div>
 			</div>
 			<div class="project-card">
 				<div class="fl project-img-icon-box"><img src="..//images/pdfgen_icon.png" class="project-img-icon"/></div>
-				<div class="project-text"><h3 class="color-blue">PDFGen – A PDF conversion application</h3>
+				<div class="project-text"><h3 class="color-blue">PDFGen – Zoho’s internal PDF Generator</h3>
 					<ul>
-						<li>Implemented a blocking queue to handle web requests during high traffic.</li>
-						<li>Optimized tomcat server to handle a large number of heavy requests based on CPU, IO and memory analysis. The optimized system could handle thrice the number of requests handled earlier in a minute.</li>
+						<li>Created a blocking queue to handle a large number of heavy requests by analyzing CPU, IO and Memory usage.</li>
+						<li>Optimized the software to handle three times more requests.</li>
 					</ul>
 				</div>
 			</div>
@@ -93,7 +133,7 @@
 			<div class="project-card">
 				<div class="fl project-img-icon-box" style="background-color:#166685 !important;"><img src="..//images/livec_project_icon.jpg" class="project-img-icon"/></div>
 				<div class="project-text"><h3 class="color-blue">Live Connections End-End Recruitment Application</h3>
-					Live connections is a Search & Recruitment organisation that specializes in finding and placing professionals across several sectors around the globe. I worked closely with the clients to redesigning multiple modules.
+					Migrated their Desktop application to Web. Interacted with clients and developed features as required.
 				</div>
 			</div>
 		</div>
@@ -105,7 +145,7 @@
 			</div>
 			<div class="hr-red"></div>
 			<div class="project-card">
-				<div class="fl project-img-icon-box" style="background-color:#000000 !important;"><img src="..//images/eec_cse_icon.png" class="project-img-icon"/></div>
+				<div class="fl project-img-icon-box"><img src="..//images/eec_cse_icon.png" class="project-img-icon"/></div>
 				<div class="project-text"><h3 class="color-blue">Computer Science</h3>
 
 				</div>

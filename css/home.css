@@ -66,8 +66,8 @@ body {
 .company-card-title {
 	width:auto;
 	height:auto;
-	max-height:100px;
-	max-width:200px;
+	max-height:60px;
+	/* max-width:200px; */
 	text-align:center;
 	margin-left: auto;
   	margin-right: auto;
@@ -103,7 +103,8 @@ body {
 	max-height:200px;
 	max-width:250px;
 	text-align:center;
-  	text-align: center;
+	text-align: center;
+	border-radius:10px;
 }
 
 .project-img-icon-box{
@@ -112,7 +113,7 @@ body {
   	background-color:#c5c5c5;
   	float:left;
   	margin-top:25px;
-  	width:260px;
+  	width:250px;
 	max-height:200px;
 	display:table-cell; 
 	vertical-align:middle; 
@@ -121,6 +122,10 @@ body {
 .project-text{
 	margin-left:30%;
 	font-family: 'Roboto', sans-serif;
+}
+
+.sub-project-text{
+	margin-left:32%;
 }
 
 /* Experience Cards End */
