@@ -117,15 +117,16 @@ body {
 	max-height:200px;
 	display:table-cell; 
 	vertical-align:middle; 
-	text-align:center
+	text-align:center;
+	margin-left:3%;
 }
 .project-text{
-	margin-left:30%;
+	margin-left:25%;
 	font-family: 'Roboto', sans-serif;
 }
 
 .sub-project-text{
-	margin-left:32%;
+	margin-left:27%;
 }
 
 /* Experience Cards End */
